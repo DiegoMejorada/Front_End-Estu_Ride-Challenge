@@ -67,6 +67,24 @@ This project is a basic web application that simulates an Airbnb-style reservati
 
 ---
 
+## How to Make a Reservation
+
+1. **Check the Weather**: Before making a reservation, you can view the current weather conditions for the location. This information is displayed at the top of the application.
+
+2. **Select a Date**: Use the date picker in the reservation form to select the date for which you want to make a reservation. Please ensure the date is in the future.
+
+3. **Select the Number of Guests**: Enter the number of guests for the reservation. The system currently supports 1 to 4 guests.
+
+4. **Submit the Reservation**: Click the 'Submit Reservation' button to submit your reservation request.
+
+5. **View Confirmation or Error Messages**: After submitting, you will receive a confirmation message if the reservation is successful. If the selected date is already booked, an error message will be displayed.
+
+6. **Review Current Reservations**: You can view a list of all current reservations below the reservation form.
+
+Thank you for using our Airbnb-style reservation system. We hope you have a pleasant experience!
+
+---
+
 ## Submission
 Share the link to your forked repository as your submission.
 
