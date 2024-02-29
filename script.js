@@ -19,7 +19,7 @@ function displayWeatherData(data) {
     const weatherInfoDiv = document.getElementById('weather-info');
     if (data.main && data.weather && data.sys && data.name) {
         const iconCode = data.weather[0].icon;
-        const iconUrl = `http://openweathermap.org/img/wn/${iconCode}.png`;
+        const iconUrl = `icons/${iconCode}.png`;
 
         // Usar el mapeo para obtener una descripción personalizada si existe
         let weatherDescription = data.weather[0].description;

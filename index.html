@@ -8,10 +8,20 @@
     <title>Airbnb Reservation System</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#reservation">Reservas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="container">
         <section class="weather-section">
             <!-- Aquí se muestra la información del clima -->
-            <h2>Weather Information</h2>
+            <h2>Información del Clima</h2>
             <div id="weather-info">
                 <!-- Aquí se actualiza la información del clima desde JavaScript -->
             </div>
@@ -19,7 +29,7 @@
 
         <section class="reservation-section">
             <!-- Aquí esta el formulario de reserva -->
-            <h2>Make a Reservation</h2>
+            <h2>Haz una reservación</h2>
             <form id="reservation-form">
                 <!-- Campos del formulario, por ejemplo, date picker y número de huéspedes -->
                 <label for="date">Date:</label>
@@ -34,7 +44,7 @@
 
         <section class="current-reservations">
             <!-- Aquí se mostraran las reservas actuales -->
-            <h2>Current Reservations</h2>
+            <h2>Reservaciones actuales</h2>
             <ul id="reservation-list">
                 <!-- Aquí se actualiza la lista de reservas desde JavaScript -->
             </ul>
@@ -42,5 +52,10 @@
     </div>
 
     <script src="script.js"></script>
+
+    <footer>
+        <p>Derechos reservados © Diego Ruiz UDG 2024</p>
+    </footer>
+
 </body>
 </html>

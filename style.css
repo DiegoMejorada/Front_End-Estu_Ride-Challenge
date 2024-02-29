@@ -69,19 +69,77 @@ li {
     color: #333; /* Texto oscuro para contraste */
 }
 
-/* Estilos añadidos para la sección del clima con imagen */
+/* Estilos añadidos para la sección del clima */
+.weather-section {
+    background-color: #e9eff1; /* Un tono más claro para diferenciar la sección */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Suave sombra para profundidad */
+    margin: 20px auto; /* Asegura un margen consistente */
+    padding: 20px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column; /* Organiza el contenido verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
 .weather-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%; /* Aprovecha el ancho disponible */
 }
 
 .weather-data {
-    flex: 1;
+    text-align: left; /* Alinea el texto a la izquierda para legibilidad */
+    flex-grow: 1; /* Permite que el contenedor de datos se expanda */
+    padding-right: 20px; /* Espacio entre los datos y el icono */
 }
 
 .weather-icon {
-    flex-basis: 100px; /* tamaño deseado del ícono */
+    flex-basis: 100px; /* Mantiene el tamaño del ícono */
     display: flex;
-    justify-content: flex-end;
+    justify-content: center; /* Centra el ícono horizontalmente */
+}
+
+.weather-section h2 {
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.weather-data p {
+    color: #333; /* Color oscuro para contraste */
+    margin: 0.5em 0; /* Espaciado vertical entre líneas de texto */
+    font-size: 1em; /* Tamaño de fuente adecuado */
+}
+
+.weather-data a {
+    color: #3498db;
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Nuevos estilos para header y footer */
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agregando shadow box */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 0;
 }
