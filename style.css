@@ -1,9 +1,9 @@
 body {
-    background-color: #f0f4f8; /* Un gris azulado claro para el fondo, suave y neutro */
+    background-color: #f0f4f8; 
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333; /* Color de texto más oscuro para contraste */
+    color: #333; 
 }
 
 .container {
@@ -18,13 +18,13 @@ body {
 section {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #ffffff; /* Fondo blanco para las secciones para resaltar sobre el fondo general */
+    background-color: #ffffff; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     border-radius: 8px;
 }
 
 h2 {
-    color: #2c3e50; /* Un azul oscuro/gris para los títulos, añade un poco de color sin ser abrumador */
+    color: #2c3e50; 
     margin-bottom: 20px;
 }
 
@@ -36,7 +36,7 @@ form {
 
 label {
     margin-bottom: 8px;
-    color: #606f7b; /* Gris azulado para texto de etiquetas, suave y moderno */
+    color: #606f7b;  
 }
 
 input,
@@ -48,7 +48,7 @@ button {
 }
 
 button {
-    background-color: #3498db; /* Azul brillante para botones, hace que sean el punto focal */
+    background-color: #3498db; 
     color: #fff;
     border: none;
     cursor: pointer;
@@ -56,7 +56,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9; /* Un tono de azul más oscuro para hover */
+    background-color: #2980b9; 
 }
 
 ul {
@@ -81,7 +81,7 @@ li {
 }
 
 .weather-icon {
-    flex-basis: 100px; /* Ajusta este valor según el tamaño deseado del ícono */
+    flex-basis: 100px; /* tamaño deseado del ícono */
     display: flex;
     justify-content: flex-end;
 }
