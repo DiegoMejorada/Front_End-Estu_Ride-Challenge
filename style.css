@@ -1,0 +1,87 @@
+body {
+    background-color: #f0f4f8; /* Un gris azulado claro para el fondo, suave y neutro */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Color de texto más oscuro para contraste */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Mantenemos el contenido principal en blanco para fácil lectura */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para las secciones para resaltar sobre el fondo general */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #2c3e50; /* Un azul oscuro/gris para los títulos, añade un poco de color sin ser abrumador */
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #606f7b; /* Gris azulado para texto de etiquetas, suave y moderno */
+}
+
+input,
+button {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde suave */
+    border-radius: 5px;
+    background-color: #eaeef1; /* Fondo ligeramente azulado para inputs */
+}
+
+button {
+    background-color: #3498db; /* Azul brillante para botones, hace que sean el punto focal */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Un tono de azul más oscuro para hover */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #333; /* Texto oscuro para contraste */
+}
+
+/* Estilos añadidos para la sección del clima con imagen */
+.weather-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-data {
+    flex: 1;
+}
+
+.weather-icon {
+    flex-basis: 100px; /* Ajusta este valor según el tamaño deseado del ícono */
+    display: flex;
+    justify-content: flex-end;
+}
